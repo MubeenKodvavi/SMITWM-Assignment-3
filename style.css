@@ -2,7 +2,23 @@
     background-color: rgb(49, 109, 195);
 }
 
-.social {}
+.active {
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.nav {
+    top: 0;
+    position: sticky;
+}
+
+.nav-link:hover {
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border-radius: 30px;
+}
 
 div.social>a>img,
 div.social>a {
@@ -15,6 +31,35 @@ div.social>a {
     color: white;
 }
 
-.logo>img {
+.logo {
     width: 200px;
+}
+
+.headline {
+    text-align: center;
+    background-color: blue;
+    margin: 10px auto 0 auto;
+    width: 70%;
+}
+
+.logo2 {
+    width: 80px;
+}
+
+.dash>p {
+    color: green;
+    font-weight: bolder;
+}
+
+h1.heading {
+    color: lightblue;
+}
+
+h1.heading>span {
+    color: green;
+}
+
+.introcontent {
+    width: 70%;
+    margin: auto;
 }
