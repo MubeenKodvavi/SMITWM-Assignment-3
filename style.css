@@ -1,65 +1,161 @@
-.topbar {
-    background-color: rgb(49, 109, 195);
-}
-
-.active {
-    background-color: rgb(49, 109, 195);
-    color: white;
-    border-radius: 30px;
-    margin-right: 20px;
-}
-
-.nav {
-    top: 0;
-    position: sticky;
-}
-
-.nav-link:hover {
-    background-color: rgb(49, 109, 195);
-    color: white;
-    border-radius: 30px;
-}
-
-div.social>a>img,
-div.social>a {
-    margin: 0 2px 0 2px;
-    width: 20px;
-    height: 20px;
-}
-
-.tagline {
-    color: white;
-}
-
-.logo {
-    width: 200px;
-}
-
-.headline {
-    text-align: center;
-    background-color: blue;
-    margin: 10px auto 0 auto;
-    width: 70%;
-}
-
-.logo2 {
-    width: 80px;
-}
-
-.dash>p {
-    color: green;
-    font-weight: bolder;
-}
-
-h1.heading {
-    color: lightblue;
-}
-
-h1.heading>span {
-    color: green;
-}
-
-.introcontent {
-    width: 70%;
-    margin: auto;
-}
+    .topbar {
+        background-color: rgb(49, 109, 195);
+    }
+    
+    .active {
+        background-color: rgb(49, 109, 195);
+        color: white;
+        border-radius: 30px;
+        margin-right: 20px;
+    }
+    
+    .nav {
+        top: 0;
+        position: sticky;
+    }
+    
+    .nav-link:hover {
+        background-color: rgb(49, 109, 195);
+        color: white;
+        border-radius: 30px;
+    }
+    
+    div.social>a>img,
+    div.social>a {
+        margin: 0 2px 0 2px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .tagline {
+        color: white;
+    }
+    
+    .logo {
+        width: 200px;
+    }
+    
+    .headline {
+        text-align: center;
+        background-color: blue;
+        margin: 10px auto 0 auto;
+        width: 70%;
+    }
+    
+    .logo2 {
+        width: 40px;
+    }
+    
+    .dash>p {
+        color: green;
+        font-weight: bolder;
+    }
+    
+    h1.heading {
+        color: lightblue;
+    }
+    
+    h1.heading>span {
+        color: green;
+    }
+    
+    .introcontent {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .community-services {
+        background-color: rgb(49, 109, 195);
+        ;
+    }
+    
+    .service {
+        margin: 20px 0 20px 0;
+    }
+    
+    .service>img {
+        width: 40px;
+    }
+    
+    .service>h1 {
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .service>p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .service>p>span {
+        color: yellow;
+    }
+    
+    .do-c {
+        position: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .do {
+        margin: 10px;
+        /* border: 2px solid black; */
+        width: 33%;
+        box-shadow: 0px 0px 20px grey;
+    }
+    
+    .do>img {
+        width: 40px;
+        padding-top: 50px;
+    }
+    
+    .do>p {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .upcoming {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 70px;
+    }
+    
+    .mission {
+        font-size: 25px;
+        color: rgb(49, 109, 195);
+        font-weight: 700;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gallery {
+        margin: 0;
+        border: 1px solid red;
+    }
+    
+    .gallery>img {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+    }
+    
+    .footer {
+        background-color: black;
+        color: white;
+    }
+    
+    .fsocial>a {
+        width: 40px;
+    }
+    
+    .fsocial>a>img {
+        width: 40px;
+    }
