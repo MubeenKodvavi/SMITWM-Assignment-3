@@ -1,0 +1,20 @@
+.topbar {
+    background-color: rgb(49, 109, 195);
+}
+
+.social {}
+
+div.social>a>img,
+div.social>a {
+    margin: 0 2px 0 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.tagline {
+    color: white;
+}
+
+.logo>img {
+    width: 200px;
+}
